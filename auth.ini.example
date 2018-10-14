@@ -1,0 +1,6 @@
+[database]
+username = xxx
+password = xxx
+server = localhost
+port = 8889
+db_name = weather
