@@ -10,6 +10,7 @@ class Observation(Base):
     id = Column(Integer, primary_key=True)
     temperature = Column(Float, nullable=True)
     dewpoint = Column(Float, nullable=True)
+    humidity = Column(Float, nullable=True)
     wind_direction = Column(Integer, nullable=True)
     wind_speed = Column(Float, nullable=True)
     wind_gust = Column(Float, nullable=True)
